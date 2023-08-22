@@ -47,14 +47,9 @@ This repository contains a file called `.env.example` with some sample values in
 to `.env` and fill in your own values. The example file looks like this:
 
 ```text
-export UbiquitiUsername=USERNAME
-export UbiquitiPassword=PASSWORD
 export UbiquitiSshUsername=root
 export UbiquitiIp=192.168.1.1
 ```
-
-Fill in your Ubiquiti credentials in the username and password fields. For some people this will be their ui.com credentials.
-For other people with specific local credentials you'll need to use those instead.
 
 Generally you'll leave the SSH username as `root`.
 
